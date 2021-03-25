@@ -13,8 +13,8 @@ import java.util.Date;
 public class Property {
 
     @Id
-    @Field(type = FieldType.Long)
-    private Long id;
+    @Field(type = FieldType.Keyword)
+    private String id;
 
     @Field(type = FieldType.Keyword)
     private String name;
